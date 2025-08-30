@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>CSCE 3420 • Assignment 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>CSCE 3420 – Assignment 2</h1>
+  </header>
+
+  <main>
+    <p id="todo">
+      This page lists a few helpful resources for CSCE 3420 and includes a simple footer.
+    </p>
+    <ul>
+      <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+      <li><a href="https://html.spec.whatwg.org/">HTML Living Standard</a></li>
+      <li><a href="https://git-scm.com/docs">Git Documentation</a></li>
+    </ul>
+    <p><a href="about.html">About this site</a></p>
+  </main>
+
+  <footer>
+    <small>&copy; <span id="year"></span> Diya Chataut</small>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
